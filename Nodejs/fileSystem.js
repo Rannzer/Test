@@ -13,6 +13,9 @@ fs.writeFileSync(
     './content/result.txt', `Here is our result ${first}, ${second}. `,{flag: 'a'}
 )
 
+
+// Callback hell
+
 fs.readFile('./content/first.txt', 'utf8' ,(err,result)=>{
     if(err){
         console.log(`err : `, err)
