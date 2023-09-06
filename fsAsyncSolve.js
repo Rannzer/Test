@@ -13,7 +13,5 @@ const getText = (path) =>{
     })
 }
 
-// getText('./content/first.txt').then(result => console.log(result)).catch((err)=> console.log(`err:`, err))
+getText('./content/first.txt').then(result => console.log(result)).catch((err)=> console.log(`err:`, err))
 
-const hello = getText('./content/first.txt')
-console.log(hello);
